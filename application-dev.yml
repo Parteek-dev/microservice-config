@@ -1,14 +1,6 @@
-server:
-  port: 8083
-
 spring:
   application:
-    name: RATING-SERVICE
-  data:
-    mongodb:
-      database: microservice
-      uri: mongodb://localhost:27017
-
+    name: HOTEL-SERVICE-CONFIG
 #this will make this user service as a client and register with service registry
 eureka:
   instance:
